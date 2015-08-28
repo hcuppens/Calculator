@@ -1,0 +1,7 @@
+C:\Temp\Test\Calculator\Console\bin\Debug\Console.exe
+C:\Temp\Test\Calculator\Console\bin\Debug\Console.pdb
+C:\Temp\Test\Calculator\Console\bin\Debug\Calculator.dll
+C:\Temp\Test\Calculator\Console\bin\Debug\Calculator.pdb
+C:\Temp\Test\Calculator\Console\obj\Debug\Console.csprojResolveAssemblyReference.cache
+C:\Temp\Test\Calculator\Console\obj\Debug\Console.exe
+C:\Temp\Test\Calculator\Console\obj\Debug\Console.pdb
