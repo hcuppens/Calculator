@@ -44,7 +44,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Expression.cs" />
+    <Compile Include="IOperand.cs" />
+    <Compile Include="IOperator.cs" />
+    <Compile Include="Lexer\TheLexer.cs" />
+    <Compile Include="Lexer\Tokens\AToken.cs" />
+    <Compile Include="Lexer\TokenFactory.cs" />
+    <Compile Include="Lexer\Tokens\Addition.cs" />
+    <Compile Include="Lexer\Tokens\Division.cs" />
+    <Compile Include="Lexer\Tokens\Multiplication.cs" />
+    <Compile Include="Lexer\Tokens\Number.cs" />
+    <Compile Include="Lexer\Tokens\UnrecognizedToken.cs" />
+    <Compile Include="Parsing\ExpressionTree.cs" />
+    <Compile Include="Parsing\OperationOrder.cs" />
+    <Compile Include="Parsing\OrderedExpressionTreeBuilder.cs" />
+    <Compile Include="Parsing\Parser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
